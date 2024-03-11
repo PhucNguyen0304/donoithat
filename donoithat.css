@@ -1,0 +1,123 @@
+.khung {
+    width: 960px;
+    margin: 0px auto;
+}
+.header {
+    background-color: blue;
+
+}
+.banner {
+    margin: 0px 10;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    display: flex;
+}
+.dm {
+    background-color: #fff; width: 240px; 
+    float: left;
+}
+.dm h3 {
+    opacity: 0.7;
+    font-size: 22px;
+}
+.dssp {
+    margin-top: 45px;
+    width: 200px;
+    float: left;
+}
+
+.footer {
+    background-color: pink;
+    clear: both;
+}
+.sp {
+    width: 220px; 
+    float: left;
+    padding: 8px;
+
+}
+.tieude {
+    font-size: 16px;
+    color: gray;
+    font-family: Tahoma;
+}
+p {
+    color:gray;
+    font-size:15px;
+}
+.do {
+    color: red;
+}
+.ct {
+    color: while;
+    background-color :red;
+    padding:10px 10px;
+    float: right;
+    text-decoration: none;
+}
+.logo {
+    float: left;
+}
+.menu {
+    float: left;
+    padding-left: 50px;
+}
+ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    padding: 10px 17px;
+}
+.menu ul li a {
+    text-decoration: none; 
+    color: gray;
+    font-size: 20px ;
+    text-transform: uppercase;
+}
+.menu ul li {
+    border-bottom: 3px solid gray;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid back;
+}
+.menu ul li:hover a {
+    color: red;
+}
+.dm ul {
+    padding: 0px;
+}
+.dm ul li {
+    padding : 8px 50px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+.dm a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+.footer {
+    margin-top: 32px;
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: space-between;
+}
+.footer p {
+    color: #fff;
+    padding-left: 16px;
+}
+.footer .footer-icon {
+    display: flex;
+    align-items: center;
+}
+.footer svg {
+
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+    margin: 0 16px;
+}
